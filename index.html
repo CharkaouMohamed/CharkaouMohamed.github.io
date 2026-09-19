@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Charkaoui —  Higher Technician  </title>
+<meta name="description" content=" Mohamed Charkaoui , Higher Technician in IT, AI (Machine Learning, Deep Learning), Big Data, and Cloud Computing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">P<span>ortfolio</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#apropos">About</a></li>
+        <li><a href="#competences">Skills</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="hero-kicker">Higher Technician in IT, AI (Machine Learning, Deep Learning), Big Data, and Cloud Computing.</p>
+        <h1>JI build intelligent digital solutions.</h1>
+        <p class="hero-lede">
+         BTS Graduate in Artificial Intelligence Development
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="c:\Users\Chark\Downloads\CV_Mohamed_Charkaoui (2).pdf" class="btn btn-ghost" download>Télécharger mon CV</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-hidden="true">
+        <div class="panel-row"><span>dataset.csv</span><span class="dot dot-live"></span></div>
+        <div class="panel-row"><span>model.fit(X_train, y_train)</span><span class="dot"></span></div>
+        <div class="panel-row"><span>accuracy_score : <b id="accCounter">0</b>%</span><span class="dot"></span></div>
+        <div class="panel-row"><span>epoch <span id="epochCounter">0</span>/50</span><span class="dot"></span></div>
+      </div>
+    </section>
+
+    <!-- ================= À PROPOS ================= -->
+    <section id="apropos" class="section container">
+      <h2>About Me </h2>
+      <div class="about-grid">
+        <p>
+         I am a Higher Technician in Artificial Intelligence Development, passionate about building intelligent, data-driven solutions. My technical background includes Python, SQL, databases, data processing, machine learning, and web development.
+
+I focus on turning technical challenges into practical and efficient solutions through continuous learning and hands-on projects. I am particularly interested in Artificial Intelligence, Data Engineering, and the development of intelligent applications.
+        </p>
+        <p>
+          I am open to professional opportunities where I can apply my skills, contribute to meaningful projects, and continue growing as a technology professional.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= COMPÉTENCES ================= -->
+    <section id="competences" class="section container">
+      <h2>SKILLS</h2>
+      <div class="skills-grid">
+
+        <div class="skill-block">
+          <h3>Artificial Intteligence & Machine Learning </h3>
+          <ul class="skill-list">
+            <li>Machine learning - Deep learning </li>
+            <li>Python - C / C++ - Java </li>
+            <li>Model Training & Evaluation  </li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Data & Databases</h3>
+          <ul class="skill-list">
+            <li>SQL - MySQL</li>
+            <li>Data Cleaning & Transformation  </li>
+            <li>Database Design</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Software & Web Development</h3>
+          <ul class="skill-list">
+            <li>HTML5 & CSS3 -JavaScript</li>
+            <li>OOP - Git & GitHub </li>
+            
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Data Engineering and Big Data</h3>
+          <ul class="skill-list">
+            <li>Pandas & NumPy </li>
+            <li>Apache Spark </li>
+            <li>Hadoop - ETL & Data Pepelines</li>
+            <li>Cloud Computing Fundamentals</li>
+            
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Development Tools</h3>
+           <ul class="skill-list">
+            <li>Vs Code </li>
+            <li>JupyterNotebook</li>
+            <li>MySQL Workbench</li>
+            <li>Microsoft Excel</li> 
+      </div>
+    </section>
+
+    <!-- ================= PROJETS ================= -->
+    <section id="projets" class="section container">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>Classificateur d'images</h3>
+          <p>Modèle CNN entraîné pour reconnaître des catégories d'images, avec une petite interface web de démonstration.</p>
+          <div class="project-tags"><span>Python</span><span>Keras</span><span>Flask</span></div>
+          <a href="#" class="project-link">Voir le code →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Analyse de sentiments</h3>
+          <p>Traitement de texte et modèle NLP pour classer des avis clients en positif / négatif / neutre.</p>
+          <div class="project-tags"><span>Python</span><span>NLTK</span><span>Pandas</span></div>
+          <a href="#" class="project-link">Voir le code →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Ce portfolio</h3>
+          <p>Site personnel codé en HTML, CSS, JavaScript et PHP pour présenter mon parcours et mes réalisations.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>PHP</span></div>
+          <a href="#" class="project-link">Voir le code →</a>
+        </article>
+
+      </div>
+      <p class="hint">👉 Remplace ces trois cartes par tes vrais projets de BTS et mets à jour les liens vers GitHub.</p>
+    </section>
+
+    <!-- ================= PARCOURS ================= -->
+    <section id="parcours" class="section container">
+      <h2>Parcours</h2>
+      <ol class="timeline">
+        <li>
+          <span class="timeline-date"> 2026</span>
+          <div>
+            <h3> Higher Artificial Intelligence Technician</h3>
+            <p>BTS in Artificial Intelligence Development — Mohamed V Technical High School, Beni Mellal</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date">2024</span>
+          <div>
+            <h3>Baccalaureate</h3>
+            <p>Baccalaureate Diploma — Morocco </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p class="contact-lede">a question, an internship or job opportunity</p>
+
+      <form id="contactForm" action="contact.php" method="POST" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="nom">Ful name </label>
+          <input type="text" id="nom" name="nom" required minlength="2" placeholder="Your name">
+          <span class="field-error" data-for="nom"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="email" required placeholder="Your e-mail ">
+          <span class="field-error" data-for="email"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required minlength="10" rows="5" placeholder="Your  message..."></textarea>
+          <span class="field-error" data-for="message"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mohamed Charkaoui  — Personal portfolio.</p>
+      <div class="footer-links">
+        <a href="https://github.com/CharkaouMohamed" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mohamed-charkaoui-35788939b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

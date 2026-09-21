@@ -47,7 +47,7 @@ if (!empty($erreurs)) {
 }
 
 // ---- 4. Envoi de l'e-mail (ou sauvegarde locale, voir plus bas) ----
-$destinataire = "ton-adresse@email.com"; // <-- remplace par ta vraie adresse
+$destinataire = "charkaoui6367@icloud.com"; // <-- remplace par ta vraie adresse
 $sujet   = "Nouveau message depuis ton portfolio";
 $contenu = "Nom : $nom\nEmail : $email\n\nMessage :\n$message";
 $headers = "From: no-reply@tonsite.com\r\nReply-To: $email";
